@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>911 Service</title>
+<h2>911 Service</h2>
+
+<style>
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+</style>
+
+</head>
+<body>
+
+<iframe width="600" height="400" src="https://data.gov.sg/dataset/psi/resource/82776919-0de1-4faf-bd9e-9c997f9a729d/view/d57fb838-2ccc-4d5c-9adc-907b34185e5c" frameBorder="0"> </iframe>
+
+<script>
+
+document.write("");
+
+</script>
+
+<form action="./data.php" method="post">
+  Name:<br>
+  <input type="text" name="name"><br>
+  Mobile Number:<br>
+  <input type="text" name="mobilenum"><br>
+  Location:<br>
+  <input type="text" name="location"><br><br>
+  Type of Assistance Requested:<br><br>
+  <input type="radio" name="ass" value="Emergency Ambulance" checked> Emergency Ambulance<br>
+  <input type="radio" name="ass" value="Rescue and Evacuation"> Rescue and Evacuation<br>
+  <input type="radio" name="ass" value="Fire-Fighting"> Fire-Fighting<br>
+   <input type="radio" name="ass" value="Gas Leak Control">Gas Leak Control<br><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>

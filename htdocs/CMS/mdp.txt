@@ -1,0 +1,5 @@
+- Can use mobile phone
+- Picture taken of map right after exploration from Android Device
+- C8 requires killing of app for persistent reasons
+- C9 must have immediate connection (displayed on tablet)
+ 
